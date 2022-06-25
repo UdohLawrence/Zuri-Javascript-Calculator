@@ -8,16 +8,16 @@ var operator = window.prompt("Please enter any of the following operators: +, -,
 
 if (operator == "+") {
   sum = num1 + num2;
-  console.log("The sum of num1 and num2 is" + sum);
+  alert(`The sum of ${num1} and ${num2} is ${sum}`);
 } else if (operator == "-") {
   difference = num1 - num2;
-  console.log("The difference between num1 and num2 is " + difference);
+  alert(`The difference between ${num1} and ${num2} is ${difference}`);
 } else if (operator == "*") {
   product = num1 * num2;
-  console.log("The product of num1 and num2 is " + product);
+  alert(`The product of ${num1} and ${num2} is ${product}`);
 } else if (operator == "/") {
   quotient = num1 / num2;
-  console.log("The quotient of num1 and num2 is " + quotient);
+  alert(`The quotient of ${num1} and ${num2} is ${quotient}`);
 }else{
-  console.log("Please enter a valid operator");
+  alert("Please enter a valid operator");
 }
